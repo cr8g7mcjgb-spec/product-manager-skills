@@ -237,6 +237,17 @@ Match user intent to a framework and knowledge module.
 | "Agent workflow" / "multi-agent" / "AI orchestration" | Agent Orchestration | `knowledge/ai-product-craft.md` |
 | "AI validation" / "test my AI feature" | AI Validation (PoL Probes) | `knowledge/ai-product-craft.md` |
 
+### Restaurant Startup (외식업 창업)
+
+| User Intent | Framework | Load |
+|---|---|---|
+| "외식업 창업" / "restaurant startup" / "식당 창업" | Full Feasibility Analysis | `knowledge/restaurant-startup.md` |
+| "상권분석" / "location analysis" / "입지 분석" | Location Scoring | `knowledge/restaurant-startup.md` |
+| "메뉴 설계" / "menu engineering" / "원가 계산" | Menu Engineering & Costing | `knowledge/restaurant-startup.md` |
+| "손익분기" / "break-even" / "수익성 분석" | Unit Economics & BEP | `knowledge/restaurant-startup.md` |
+| "배달 전략" / "delivery platform" / "플랫폼 수수료" | Delivery & Platform Strategy | `knowledge/restaurant-startup.md` |
+| "인허가" / "영업허가" / "식품위생" | Licensing & Compliance | `knowledge/restaurant-startup.md` |
+
 **Routing rules:**
 1. If intent matches multiple domains, the explicit ask determines primary (see Execution Workflow above).
 2. If intent is unclear, ask one clarifying question before loading.
